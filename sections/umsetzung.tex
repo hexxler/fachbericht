@@ -3,9 +3,64 @@
 \begin{document}
 	\section{Umsetzung}
 	\todo[inline]{Festlegen der Hauptfeatures und der Ziele für Definition of Done}
+	Im Folgenden wird der Begriff Benutzer*innen verwendet, welcher synonym zu den im Kapitel \nameref{section:Spielregeln} genannten Spieler*innen ist.
+	
 	\subsection{Hauptfeatures}
 	\label{section:Hauptfeatures}
+	\par Im Rahmen der Produktvision beschränken sich die Hauptfeatures auf eines MVP. \improvement{Glossar MVP} Für die Realisierung eines MVP ist die Umsetzung der folgenden Bedingungen zwingend:
+	\begin{itemize}
+		\item Hauptmenü
+		\begin{itemize}
+			\item Partie starten
+			\item Partie beenden
+			\item Spiel beenden
+		\end{itemize}
+		\item Hauptspiel
+		\begin{itemize}
+			\item Spielfeld
+			\item Möglichkeit, Plättchen zu legen
+			\item Plättchenstapel
+			\item Punkteanzeige
+			\item Hauptmenü-Button
+		\end{itemize}
+		\item Spielmechanik
+		\begin{itemize}
+			\item Punktemechanik (ohne Intervalle/Plättchenmarkt)
+			\item 3 Plättchentypen
+			\item 1 Plättchenart (kreisförmig bzw. direkt anliegend)
+			\item 1 Plättchenverhalten (benachbarte Plättchen bleiben liegen)
+		\end{itemize}
+	\end{itemize}
+
 	\subsection{Definition of Done}
 	\label{section:DefinitionOfDone}
+	\par Die im Kapitel \nameref{section:Hauptfeatures} genannten Features werden aufgrund der im folgenden genannten Kriterien als vollständig umgesetzt angesehen. Die Abnahme geschieht durch den Product Owner.
 	
+	\subsubsection{Hauptmenü}
+	\par Nachdem das Spiel gestartet oder während einer Partie der Hauptmenü-Button gedrückt wurde, befinden sich die Benutzer*innen im Hauptmenü. Im Hauptmenü sind drei Funktionen implementiert, wovon zwei von den Benutzer*innen nach Spielstart ausgewählt werden. Die dritte Option `Partie beenden´ ist deaktiviert, solange die Benutzer*innen sich nicht in einer Partie befinden.
+	\begin{itemize}
+		\item Partie starten: Die Benutzer*innen können mittels dieser Funktion eine neue Partie starten. Nachdem sie sich für diese Option entschieden haben, werden die Benutzer*innen auf die Ansicht des Hauptspiels weitergeleitet. Das Hauptspiel wird den Regeln entsprechend initialisiert.
+		\item Spiel beenden: Die Benutzer*innen können das Spiel mittels dieser Funktion beenden. Nachdem sie sich für diese Option entschieden haben, wird das Spiel beendet. Die Benutzer*innen befinden sich anschliessend zurück auf der Standardoberfläche ihres Systems.
+		\item Partie beenden: Die Benutzer*innen können mittels dieser Funktion die laufende Partie beenden. Nachdem sie sich für diese Option entschieden haben, wird die Partie beendet und die Benutzer*innen werden zurück ins Hauptmenü geführt.
+	\end{itemize}
+
+	\subsubsection{Hauptspiel}
+	\par Wird eine neue Partie gestartet, so befinden sich die Benutzer*innen anschliessend in der Ansicht des Hauptspiels. Sichtbar müssen hierbei das Spielfeld, die Punkteanzeige, der Plättchenstapel und der Hauptmenü-Button sein.
+	\par Der Plättchenstapel wurde mit zufälligen Plättchen den \nameref{section:Spielregeln} entsprechend initialisiert. Das Spielfeld ist leer und die Punkteanzeige auf Null.
+	\par Es ist den Benutzer*innen möglich, durch einen Klick auf den Hauptmenü-Button ins Hauptmenü zu gelangen. Es ist den Benutzer*innen ausserdem möglich, das oberste Plättchen des Plättchenstapels gemäss den \nameref{section:Spielregeln} auf dem Spielfeld zu platzieren.
+	\par Sind die Bedingungen für das Ende einer Partie gemäss den \nameref{section:Spielregeln} gegeben, werden die Benutzer*innen zurück ins Hauptmenü geführt.
+	
+	\subsubsection{Spielmechanik}
+	\par Es wurden drei verschiedene Plättchentypen vollständig inklusive ihrer Beziehungen zum eigenen und den übrigen Plättchentypen  implementiert.
+	\par Es wurde eine Plättchenart implementiert. Diese Plättchenart bedingt, dass alle an das Plättchen direkt anliegenden Plättchen für die Punkteberechnung einkalkuliert werden.
+	\par Es wurde ein Plättchenverhalten implementiert. Dieses Plättchenverhalten bedingt, dass unter der Plättchenart berücksichtigte Plättchen unverändert liegen bleiben.
+	\par Für jedes platzierte Plättchen werden den Benutzer*innen die korrekte Anzahl Punkte zugeschrieben.
+	
+	\subsubsection{Zusatz}
+	\par Zusätzlich zu den bereits genannten funktionalen Kriterien, werden folgende Abnahmekriterien definiert:
+	\begin{itemize}
+		\item Der Code wurde einem Peer-Review unterzogen. \improvement{Glossar Peer-Review}
+		\item Der Code wurde getestet und hat die Tests bestanden.
+		\item Der Code ist dokumentiert.
+	\end{itemize}
 \end{document}
