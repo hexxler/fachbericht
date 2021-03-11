@@ -6,13 +6,18 @@ on:
 
 jobs:
   build_latex:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v1
-      - name: Compilation
-        uses: vinay0410/tectonic-action@master
-        env:
-            GITHUB_TOKEN: ${{ secrets.AUTO_RELEASE_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: wtfjoke/setup-tectonic@v1
         with:
-          tex_path: 'main.tex'
-          push: 'yes'
+          github-token: ${{ secrets.AUTO_RELEASE_TOKEN }}
+      - name: Run Tectonic
+        run: tectonic main.tex
+      - name: Upload pdf
+        uses: actions/upload-artifact@v2
+        with:
+          name: main
+          path: main.pdf
+      - uses: actions/checkout@v1
