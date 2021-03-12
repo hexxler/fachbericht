@@ -2,22 +2,72 @@ name: Compile and push file to release
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, font_test ]
 
 jobs:
+  create_new_release_tag:
+      runs-on: ubuntu-latest
+      outputs:
+        previous-tag: ${{ steps.previoustag.outputs.tag }}
+        new-tag: ${{ steps.semvers.outputs.patch }}
+      steps:
+        - uses: actions/checkout@v2.2.0
+          with:
+            fetch-depth: 0
+        - name: 'Get Previous tag'
+          id: previoustag
+          uses: "WyriHaximus/github-action-get-previous-tag@v1.0.1"
+
+        - name: 'Get next minor version'
+          id: semvers
+          uses: "WyriHaximus/github-action-next-semvers@v1"
+          with:
+            version: ${{ steps.previoustag.outputs.tag }}
+            
+        - name: Display old version
+          run: echo ${{ steps.previoustag.outputs.tag }}
+          
+        - name: Display new version
+          run: echo ${{ steps.semvers.outputs.patch }}
+            
   build_latex:
+    needs: create_new_release_tag
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      
+      - name: Move fonts
+        run: mv -v fonts/ /usr/share/fonts/
+
+      - name: Refresh font cache
+        run: fc-cache -f -v
+        
+      - name: Display installed fonts for debugging
+        run: fc-list
+        
       - uses: wtfjoke/setup-tectonic@v1
         with:
           github-token: ${{ secrets.AUTO_RELEASE_TOKEN }}
+          
       - name: Run Tectonic
         run: tectonic main.tex
+      
       - name: Upload pdf
         uses: actions/upload-artifact@v2
         with:
           name: main
           path: main.pdf
-      - uses: actions/checkout@v1
+          
+      - name: Display outputs from previous job
+        run: |
+          echo ${{ needs.create_new_release_tag.outputs.previous-tag }}
+          echo ${{ needs.create_new_release_tag.outputs.new-tag }}
+          
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ needs.create_new_release_tag.outputs.new-tag }}
+          files: main.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.AUTO_RELEASE_TOKEN }}
