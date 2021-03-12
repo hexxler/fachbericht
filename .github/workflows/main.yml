@@ -2,7 +2,7 @@ name: Compile and push file to release
 
 on:
   push:
-    branches: [ main, font_test ]
+    branches: [ main, develop ]
 
 jobs:
   create_new_release_tag:
