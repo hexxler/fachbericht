@@ -18,3 +18,6 @@
 *.ist
 *.bcf
 *.bak
+*.tdo
+svg-inkscape/
+
