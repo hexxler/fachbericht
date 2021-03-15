@@ -23,16 +23,18 @@
 \usepackage{tabulary}
 \usepackage[backend=bibtex, style=ieee, citestyle=ieee]{biblatex}
 \usepackage{subfiles}
-\usepackage{todonotes}
 \usepackage{fontspec}
 \usepackage[nopostdot, acronym, toc]{glossaries}
 \usepackage[nottoc, notlot, notlof]{tocbibind}
 \usepackage{parskip}
 \usepackage{enumitem}
+\usepackage{svg}
+\usepackage{csquotes}
 
 
 % Overall settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graphicspath{{images/}}
+\svgpath{{images/svg/}}
 \pagestyle{fancy}
 \fancyhf{}
 
@@ -46,7 +48,7 @@
 	SizeFeatures={Size=12}
 ]
 
-\setmonofont{Nimbus Mono PS}
+\setmonofont{Nimbus Mono}
 
 
 \hypersetup{
@@ -70,18 +72,34 @@
 
 %% Document settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % content settings
-\newcommand{\project}{Project Name}
-\newcommand{\outline}{Project Outline}
+\newcommand{\project}{Projekt Hexxle}
+\newcommand{\outline}{Produktvision}
 
 
 \title{
-	\Huge{}\color{accent_normal}\textbf{\MakeUppercase{\project}}\\ 
-	\large{}\color{accent_dark}\textbf{\MakeLowercase{\outline}}}
+	\Huge{}\color{accent_normal}\includesvg[width=\linewidth]{hexxle_logo_1}\\ 
+	\vspace{2cm}
+	\large{}\color{accent_dark}\textbf{\outline}
+}
 
-\author{Peter Michailis}\affil{ZHAW - Zurich}
+
+\author{
+	Deniz Akca
+	\and
+	Dennis Bannerman
+	\and
+	Adriana de Sao José Martins
+	\and
+	Peter Michailis
+	\and
+	Ricardo Monteiro Simoes
+	\and
+	Andrew Surber
+}
+\affil{ZHAW - Zurich}
 
 
-\rhead{\color{content_light}\includegraphics[width=4cm]{header-logo.png}}
+\rhead{\color{content_light}\includesvg[width=2cm]{hexxle_logo_2}}
 \lhead{\color{content_light}\project\ $\vert$ \textit{\leftmark}}
 
 \rfoot{\color{content_light}-\thepage-}
@@ -90,7 +108,28 @@
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
 
+% Define titlepage layout
 \makeatletter
+\def\@maketitle{%
+	\newpage
+	\null
+	\vskip 1cm%
+	\begin{center}%
+		\let \footnote \thanks
+		{\LARGE \@title \par}%
+		\vskip 2cm%
+		{\large
+			\lineskip .25em%
+			\begin{tabular}[t]{c}%
+				\@author
+			\end{tabular}\par}%
+		\vfill%
+		{\large \@date}
+	\end{center}%
+	\par
+	\vskip 1.5em
+}
+\makeatother
 
 % \todo{Draft watermark, should be removed for final}
 \usepackage{draftwatermark}
@@ -99,6 +138,16 @@
 \SetWatermarkAngle{60}
 \SetWatermarkScale{20}
 % 
+
+% Improvements for package todonotes, remove for final
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=green,backgroundcolor=green!25,bordercolor=green,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=violet,backgroundcolor=violet!25,bordercolor=violet,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+%
 
 % Document structure %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -109,20 +158,38 @@
 	\begin{titlepage}
 		\maketitle
 		\thispagestyle{empty}
-		\includegraphics[width=\linewidth]{logo.png}
-		\vfill
 	\end{titlepage}
 
-	\subfile{sections/disclaimer}
+	%\subfile{sections/disclaimer}
 
 	\tableofcontents
 	\newpage
 	
 	\pagenumbering{arabic}
+
 	
-		
-	\subfile{sections/example}
-	% add sections here
+	%\subfile{sections/example}
+	\subfile{sections/productvision/introduction}
+	\subfile{sections/productvision/produktidee}
+	\subfile{sections/productvision/spielregeln}
+	\subfile{sections/productvision/umsetzung}
+	\subfile{sections/productvision/risiken}
+	\subfile{sections/productvision/architektur}
+	\subfile{sections/productvision/technologien}
+	\subfile{sections/productvision/miscellaneous}	
+	%\subfile{sections/context}
+	%\subfile{sections/objectives_functional_overview}
+	%\subfile{sections/quality_attributes_non_functional_requirements}
+	%\subfile{sections/constraints}
+	%\subfile{sections/principles}
+	%\subfile{sections/architecture}
+	%\subfile{sections/external_interfaces}
+	%\subfile{sections/code}
+	%\subfile{sections/data}
+	%\subfile{sections/infrastructure_architecture}
+	%\subfile{sections/deployment}
+	%\subfile{sections/operation_support}
+	%\subfile{sections/decision_log}	% add sections here
 	
 	\newpage
 
@@ -131,4 +198,29 @@
 	
 	\newpage
 	\printbibliography[heading=bibintoc]
+	
+	\newpage
+	\listoftodos[Notes]
 \end{document}
+
+% Die nachfolgenden Grundsätze sollten für die agile Dokumentation gelten:
+%	•"Keep it short, keep it simple
+%	"Niemand hat die Zeit umfangreiche Dokumentationen zu lesen. Noch weniger Spass macht es sie zu schreiben.
+% 	Das Guidebook soll die notwendigen Informationen in kurzer und präziser Form enthalten.
+%
+%	•"As much, as currently needed" bzw. "Just enough upfront design"
+%	Das Guidebook soll die Information enthalten, die Momentan benötigt wird. Einige Angaben sollten bereits zu
+%	Beginn des Projektes geklärt werden (Qualitätsattribute, Beschränkungen, Prinzipien, etc.),
+%	andere werden grob gestartet und während des Projektablaufs ständige ergänzt und verfeinert (Funktionale Übersicht,
+%	Code, Daten, Entscheidungs Protokoll, ...) und weitere werden erst im Laufe des Projektes hinzugefügt, sobald Sie
+%	benötigt werden (Deployment, Operation und Support, ...)
+%
+%	•"Allways up to date"
+%	Das Guidebook ist ein lebendes Dokument, dass laufend erweitert und aktualisiert wird. Damit das funktioniert,
+%	sollte es online bereitgestellt und leicht zugänglich sein. Wie jedes Dokument sollte es versioniert sein
+%	(z.B. Wiki, Webseite, Github-Pages, etc). Word-Dokumente sind deslhalb denkbar schlecht geeignet
+%
+%
+% Die Projektdokumentation (Software-Guidebook) startet in der Projekt-Setup-Phase als Projekt-Vision und soll während dem Projekt laufend ergänzt
+% und nachgeführt werden. Die kontinuierliche Aktualisierung fliesst in jedem Sprint in die 2P Bewertung "Sprint-Durchführung" ein.
+% Die Bewertung des Inhalts erfolgt nach Abschluss des fünften Sprints als Teil des Resultats und wird mit 0..10 Punkten bewertet.

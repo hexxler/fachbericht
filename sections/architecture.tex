@@ -1,0 +1,41 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+    % Hier soll eine Übersicht ("Big Picture") über die Struktur der Software bzw. des Systems gegeben werden.
+    % Traditionelle Architekturansätze sprechen von "konzeptioneller Ansicht" oder "logischer Struktur", was oft zu Verwirrungen führt,
+    % z.B.ob auch Implementationsdetails wie die verwende-ten Technologien enthalten sein sollen oder nicht
+    % Für eine sinnvolle Gliederung in verschiedene Ebenen empfehlen wir den C4 Ansatz:
+    %   •Context/System-Diagramm
+    %   Ein Übersichtsdiagramm, welches das System und seine Abhängigkeiten und Aktoren zeigt.
+    %
+    %   •Container-Diagramm
+    %   Zeigt eine Übersicht der verwendeten Technologien. Ein Container repräsentiert eine Lauf-zeitumgebung (z.B. Java App-Server, .NET, Ruby-Prozess, ...)
+    %   in dem ein Teil ihres Programmes läuft oder einen Datenspeicher (Datenbank, Filesystem,....).
+    %   Für die Kommunikation zwischen Containern wird normalerweise ein definiertes API verwendet (z.B. REST, RMI, JDBC, Messaging-Service, ...)
+    %
+    %   •Component-Diagramm
+    %   Für jeden Container kann ein Komponenten-Diagramm gezeichnet werden, in welchem die Schlüsselkomponenten und ihre Beziehung untereinander dargestellt sind.
+    %   Componenten definieren logische Kombination von Klassen, die zusammen eine bestimmte logische Funktionalität anbieten (z.B. Logging, Security, ...).
+    %   Die Schnittstelle zwischen Componentenist typischerweise ein Interface (Interface-Klasse).
+    %
+    %   •Class-Diagramm (Klassendiagramm) -optional
+    %   Dies ist die tiefste Ebene, in welcher das Zusammenspiel von Klassen innerhalb einer Componente visualisiert wird.
+    %   Dies ist eine optionale Ebene, die nur verwendet wird um ganz spezifische Spezialitäten zu dokumentieren.
+    %
+    % Die ausführliche Idee und Beschreibung finden sie im Referenzbuch "Software-Architecture for Developers" [Simon Brown, Leanpub, 2015],
+    % Kapitel "C4: context, containers, components and classes". Dieser Ansatz stellt sicher, dass jeweils nur Elemente auf der konzeptionell
+    % gleichen Ebene mit-einander interagieren, sowie eine klare Trennung der Verantwortlichkeit und die Verwendung definierte Schnittstellen sichergestellt werden.
+    % Zudem kann man zwischen den verschiedenen Ebenen wechseln um entweder mehr Details oder eine bessere Übersicht zu erhalten.
+    % Die Diagramme sollten durch eine kurze Erläuterung des gezeigten und einer kurzen Zusam-menfassung für jeden Container/Componenten ergänzt werden.
+    % In diesem Kapitel soll die Architektur so zusammengefasst werden, dass folgende Fragen be-antwortet werden:
+    %   •Wie sieht die Übersicht (10km Vogelperspektive) aus?
+    %   •Ist die Struktur klar?
+    %   •Zeigt sie die wesentlichen Container und Technologien?
+    %   •Zeigt sie die wesentlichen Komponenten und deren Interaktion?
+    %   •Was sind die Schlüsselschnittstellen (API)? Nach aussen und zwischen den Komponenten.
+    %
+    %Dieses Kapitel muss in jedem Software-Guidebook enthalten sein.
+
+
+
+\end{document}
