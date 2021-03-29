@@ -2,7 +2,7 @@ name: Compile and push file to release
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main ]
 
 jobs:
   create_new_release_tag:
@@ -54,7 +54,6 @@ jobs:
       - name: Run Tectonic
         run: |
           tectonic --keep-intermediates --reruns 3 main.tex
-          biber main
           tectonic main.tex
       - name: Upload pdf
         uses: actions/upload-artifact@v2
