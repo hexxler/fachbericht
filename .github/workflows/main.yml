@@ -51,7 +51,7 @@ jobs:
           github-token: ${{ secrets.AUTO_RELEASE_TOKEN }}
           
       - name: Run Tectonic
-        run: tectonic main.tex
+        run: tectonic  --keep-intermediates --reruns 1 main.tex
       
       - name: Upload pdf
         uses: actions/upload-artifact@v2
