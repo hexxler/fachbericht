@@ -49,10 +49,12 @@ jobs:
       - uses: wtfjoke/setup-tectonic@v1
         with:
           github-token: ${{ secrets.AUTO_RELEASE_TOKEN }}
+          biber-version: "latest"
           
       - name: Run Tectonic
-        run: tectonic  --keep-intermediates --reruns 1 main.tex
-      
+        run: |
+          tectonic --keep-intermediates --reruns 0 main.tex
+          tectonic main.tex
       - name: Upload pdf
         uses: actions/upload-artifact@v2
         with:
