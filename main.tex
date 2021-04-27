@@ -74,7 +74,7 @@
 %% Document settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % content settings
 \newcommand{\project}{Projekt Hexxle}
-\newcommand{\outline}{Produktvision}
+\newcommand{\outline}{Fachbericht}
 
 
 \title{
@@ -90,8 +90,6 @@
 	Dennis Bannerman
 	\and
 	Adriana de Sao José Martins
-	\and
-	Peter Michailis
 	\and
 	Ricardo Monteiro Simoes
 	\and
@@ -161,52 +159,34 @@
 		\thispagestyle{empty}
 	\end{titlepage}
 
+	\subfile{sections/abstract}
 	\tableofcontents
 	\newpage
 	
 	\pagenumbering{arabic}
 
-	%\subfile{sections/example}
 	
-	%% PROJEKT VISION TEIL %%
-	\subfile{sections/productvision/introduction}
-	\subfile{sections/productvision/produktidee}
-	%\subfile{sections/productvision/spielregeln}
-	\subfile{sections/productvision/umsetzung}
-	\subfile{sections/productvision/risiken}
-	\subfile{sections/productvision/architektur}
-	\subfile{sections/productvision/technologien}
-	\subfile{sections/sprint_reviews/sprint_0}
-	\subfile{sections/sprint_reviews/sprint_1}
-	\subfile{sections/sprint_reviews/sprint_2}
-	%\subfile{sections/sprint_reviews/sprint_3}
-	\subfile{sections/productvision/miscellaneous}	
+	%% Einleitung %%	
+	\subfile{sections/einleitung}
 	
-	%% PROJEKT DOKU TEIL %%
-	\subfile{sections/context}
-	\subfile{sections/objectives_functional_overview}
-	\subfile{sections/quality_attributes_non_functional_requirements}
-	\subfile{sections/constraints}
-	%\subfile{sections/principles}
-	%\subfile{sections/architecture}
-	%\subfile{sections/external_interfaces}
-	%\subfile{sections/code}
-	%\subfile{sections/data}
-	%\subfile{sections/infrastructure_architecture}
-	%\subfile{sections/deployment}
-	%\subfile{sections/operation_support}
-	\subfile{sections/decision_log}	
+	%% Resultate %%
+	\subfile{sections/resultate}
 	
-	%% PROJEKT ZUSATZ %%
+	%% Diskussion und Ausblick %%
+	\subfile{sections/diskussion}
+	
+	%% Appendix %%
 	\appendix
-	\subfile{sections/appendix/spielregeln}
-	% add sections here
+	% \section{...}
+	
 	
 	\newpage
 
+	%% Glossar %%
 	\printglossary[type=\acronymtype]
 	\printglossary
 	
+	%% Literaturverzeichnis %%
 	\newpage
 	\printbibliography[heading=bibintoc]
 	
@@ -214,24 +194,11 @@
 	\listoftodos[Notes]
 \end{document}
 
-% Die nachfolgenden Grundsätze sollten für die agile Dokumentation gelten:
-%	•"Keep it short, keep it simple
-%	"Niemand hat die Zeit umfangreiche Dokumentationen zu lesen. Noch weniger Spass macht es sie zu schreiben.
-% 	Das Guidebook soll die notwendigen Informationen in kurzer und präziser Form enthalten.
-%
-%	•"As much, as currently needed" bzw. "Just enough upfront design"
-%	Das Guidebook soll die Information enthalten, die Momentan benötigt wird. Einige Angaben sollten bereits zu
-%	Beginn des Projektes geklärt werden (Qualitätsattribute, Beschränkungen, Prinzipien, etc.),
-%	andere werden grob gestartet und während des Projektablaufs ständige ergänzt und verfeinert (Funktionale Übersicht,
-%	Code, Daten, Entscheidungs Protokoll, ...) und weitere werden erst im Laufe des Projektes hinzugefügt, sobald Sie
-%	benötigt werden (Deployment, Operation und Support, ...)
-%
-%	•"Allways up to date"
-%	Das Guidebook ist ein lebendes Dokument, dass laufend erweitert und aktualisiert wird. Damit das funktioniert,
-%	sollte es online bereitgestellt und leicht zugänglich sein. Wie jedes Dokument sollte es versioniert sein
-%	(z.B. Wiki, Webseite, Github-Pages, etc). Word-Dokumente sind deslhalb denkbar schlecht geeignet
-%
-%
-% Die Projektdokumentation (Software-Guidebook) startet in der Projekt-Setup-Phase als Projekt-Vision und soll während dem Projekt laufend ergänzt
-% und nachgeführt werden. Die kontinuierliche Aktualisierung fliesst in jedem Sprint in die 2P Bewertung "Sprint-Durchführung" ein.
-% Die Bewertung des Inhalts erfolgt nach Abschluss des fünften Sprints als Teil des Resultats und wird mit 0..10 Punkten bewertet.
+% Der  Fachartikelim  Rahmen desPSIT4-Kursesschliesst  das  Gruppenprojekt dieses  Semesters in schriftlicher  Form  ab. Dieser  wissenschaftlich gehaltene  Berichtdient  dazu,  das  fertige  Projekt  in einer einschlägigenFachzeitschrift   zu   präsentieren.   Es   handelt   sich   also   um   eine   Experten-Experten-Kommunikation, in  der  ein  korrekter  und  konsequenter  Umgang  mit  Fachterminologie ebenso wichtig ist wie eine sachliche und neutrale Formulierung.
+
+% FormaleAnforderungenDer hier  geforderte Fachartikelumfasst ca. sieben  Seiten, wozuDeckblatt  und  Literaturverzeichnis nicht  gerechnet werden.Ein Inhaltsverzeichnis ist nicht nötig, aber alle Seiten sind  nummeriertund enthalten   konsequente   Kopfzeilen.   Schrift   Arial,   11Punkte,   Blocksatz   mit   leserichtiger   Silben-trennung, Zeilenabstand 1.5.
+
+% Bewertung
+% Inhaltliche Qualität: Wissenschaftliche Beschreibungen, Recherchen zum Stand der Technik,konzi-se Zusammenfassung, Beurteilung der Qualität und Relevanz der Ergebnisse (gemässLeit-faden Berichtstrukturund Grundlagenblatt zumAbstract).
+% Formales:  Aufbau, Titelstruktur, Text/Bild-Integration,  korrekte  und  vollständige  Formalien(gemässZitierleitfadenIEEE).
+% Sprache: Korrektheit, Kohärenz der Aussagen, wissenschaftlicher Stil, unpersönliches Formulieren.
