@@ -36,15 +36,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
-      - name: Move fonts
-        run: mv -v fonts/ /usr/share/fonts/
-
-      - name: Refresh font cache
-        run: fc-cache -f -v
-        
-      - name: Display installed fonts for debugging
-        run: fc-list
         
       - uses: wtfjoke/setup-tectonic@v1
         with:
@@ -54,7 +45,7 @@ jobs:
       - name: Run Tectonic
         run: |
           tectonic --keep-intermediates --reruns 3 main.tex
-          tectonic main.tex
+          tectonic my_thesis.tex
       - name: Upload pdf
         uses: actions/upload-artifact@v2
         with:
