@@ -1,0 +1,924 @@
+
+Liste von Spiel-Engines
+aus Wikipedia, der freien Enzyklopädie
+Dies ist die aktuelle Version dieser Seite, zuletzt bearbeitet am 23. April 2021 um 20:23 Uhr durch Mielas ( Diskussion | Beiträge ) (Änderung 211217564 von Grueslayer rückgängig gemacht; Sortierbare Tabelle, Wikipedia:Verlinken#Häufigkeit der Verweise ) .
+( Unterschied ) ← Nächstältere Version | Aktuelle Version (Unterschied) | Nächstjüngere Version → (Unterschied)
+Zur Navigation springen Zur Suche springen
+Eine gesichtete Version dieser Seite, die am 23. April 2021 freigegeben wurde, basiert auf dieser Version.
+
+Dieser Artikel stellt eine Liste bekannter Spiel-Engines dar.
+Erklärung der Tabelle [ Bearbeiten | Quelltext bearbeiten ]
+
+    SE = Sound Engine eingebunden.
+    NF = Netzwerk-Modul eingebunden.
+    PE = Physik-Engine eingebunden.
+    BS = Betriebssystem bzw. Plattform.
+    Kosten = Kosten einer kommerziellen Lizenz.
+    HP = Offizielle Website
+    .Net ist gleichbedeutend mit C#.Net VB.Net usw.
+
+Spiel-Engine-Liste [ Bearbeiten | Quelltext bearbeiten ]
+Einige Einträge in dieser Tabelle ist nicht hinreichend mit Belegen (beispielsweise Einzelnachweisen ) ausgestattet. Angaben ohne ausreichenden Beleg könnten demnächst entfernt werden. Bitte hilf Wikipedia, indem du die Angaben recherchierst und gute Belege einfügst.
+Folgende Spiele-Engines sind nicht durch reputable Sekundärliteratur belegt: Dualit, G3D, NeoAxis 3D, oxygine, SLUDGE
+Game Engine 	Entwickler 	SE 	NF 	PE 	Eingabegeräte 	BS 	Grafik-API 	Lizenz 	Kosten 	HP 	Unterstützte Skript­sprachen 	Verwendung der Engine in Spielen (Auswahl)
+3D GameStudio 	Conitec 	ja 	ja 	ja 	Tastatur
+Maus
+Joystick 	Windows 	OpenGL
+DirectX 	Proprietär 	Kostenlos – 1000$ 	HP 	lite-c
+C++ (Nur Extra, Commercial
+und Pro) 	Süpercan, CSIS,
+Adventures of Ambages,
+C4 Robot; und viele weitere
+Adventure Game Interpreter (AGI) 	Sierra Entertainment 	ja 	nein 	nein 	Maus
+Tastatur 	DOS
+Windows 		Proprietär 	Unbekannt 	Unbekannt 	Game Assemble Language 	King’s Quest , Police Quest , Space Quest , Donald Duck’s Playground , Leisure Suit Larry in the Land of the Lounge Lizards
+Anvil
+(Scimitar, AnvilNext) 	Ubisoft 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows , PlayStation 3 , PlayStation 4 , Xbox 360 , Xbox One 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Assassin’s Creed Reihe, Tom Clancy’s Rainbow Six Siege , Steep , For Honor
+Apex Engine 	Avalanche Studios 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows, PlayStation 4, Xbox One 	DirectX 	Proprietär 	Unbekannt 	Unbekannt 	Unbekannt 	Mad Max , Rage 2
+Aurora Engine 	BioWare 	ja 	nein 	nein 	Tastatur
+Maus 	Windows
+Linux
+macOS 	DirectX 	Proprietär 	Unbekannt 	Unbekannt 	Unbekannt 	Neverwinter Nights , The Witcher
+Bang! Engine 	Ensemble Studios 	ja 	ja 	nein 	Tastatur
+Maus 	Windows
+macOS 		Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Age of Mythology , Age of Empires III
+Blender 	Blender Foundation 	ja 	nein 	ja 	Tastatur
+Maus
+Joystick 	Linux
+
+macOS
+
+Windows
+	DirectX
+OpenGL 	GPL 	Kostenlos 	HP 	Python (Programmiersprache) 	Yo Frankie
+Blitz3D SDK 	Blitz Research 	ja 	ja 	nein 	Maus
+Tastatur
+Joystick 	Linux
+
+Windows
+	DirectX
+OpenGL 	Proprietär 	100$ 	HP 	C
+C++
+C#
+BlitzMax
+PureBasic 	
+Build-Engine 	Ken Silverman 	ja 	ja 	nein 	Maus
+Tastatur 	DOS
+Windows
+Linux 		Build Source Code License 	Unbekannt 	HP 	Unbekannt 	Duke Nukem 3D , Shadow Warrior , Blood , Exhumed , Witchaven -Reihe
+C4 Game Engine 	Terathon Software LLC 	ja 	ja 	ja 	Tastatur
+Maus
+Joystick 	macOS
+PlayStation 3
+
+Windows
+	OpenGL 	Proprietär 	250$ – 2500$ 	HP 	Boo,
+JavaScript
+C# 	City Bus Simulator 2010
+World of Subways – Volume 1 und 2
+GreySoul
+Cafu Engine 	Carsten Fuchs Software 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick 	Linux
+
+Windows
+	DirectX
+OpenGL 	MIT-Lizenz 	Kostenlos 	HP 	C++
+Lua 	Cafu Deathmatch, VSWM
+Castle Game Engine 	Michalis Kamburelis u. a. 	ja 	ja 	ja 	Maus
+Tastatur
+Touchscreen 	Android
+iOS
+Linux
+macOS
+Windows
+	OpenGL 	LGPL 	Kostenlos 	HP 	Free Pascal
+Delphi 	Escape from the Universe,
+The Unholy Society
+Clausewitz Engine 	Paradox Development Studio 	ja 	ja 	nein 	Maus
+Tastatur 	Windows 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Europa Universalis III und IV , Hearts of Iron III und IV , Victoria II , Crusader Kings II , Stellaris , Imperator: Rome
+Cobra 	Frontier Developments 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Windows
+Xbox One
+PlayStation 4
+iOS
+Android 	Unbekannt 	Proprietär 	Unbekannt 	HP 	Unbekannt 	RollerCoaster Tycoon 3 , Elite: Dangerous , Planet Coaster , Planet Zoo
+Cocos2D [1] /Cocos2d-x 	Xiamen YAJI Software/Chukong [2] 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad
+Touchscreen 	iOS
+Android
+Linux
+macOS
+Windows [3] 	OpenGL 	MIT-Lizenz 	Kostenlos 	HP 	C++
+Lua 	Fire Emblem Heroes , Castle Clash, Pokémon Masters EX, Family Guy: The Quest for Stuff
+Creation-Engine 	Bethesda Game Studios
+basierend auf Gamebryo 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Windows
+PlayStation 3
+Xbox 360
+PlayStation 4
+Xbox One
+Nintendo Switch
+PlayStation VR
+HTC Vive
+Oculus Rift
+Windows Mixed Reality 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Papyrus 	The Elder Scrolls V: Skyrim , Fallout 4 , Fallout 76
+CryEngine 	Crytek 	ja 	ja 	ja 	Maus
+Tastatur 	PlayStation 3
+Windows
+Xbox 360
+Xbox One 	DirectX
+AMD Mantle 	Proprietär 	5% Tantiemen 	HP 	C#
+
+C++
+Lua
+	FarCry , Crysis , Crysis Warhead , Crysis 2 , Crysis 3
+Crystal Space 	Crystal Space Team 	ja 	nein 	ja 	Tastatur
+Maus
+Joystick 	Linux
+
+macOS
+
+Windows
+	OpenGL 	LGPL 	Kostenlos 	HP 	C
+C++ 	PlaneShift
+3DMedia
+Cube Engine 	Wouter „Aardappel“ van Oortmerssen, u. a. 	ja 	ja 	ja 	Tastatur
+Maus 	Linux
+
+macOS
+
+Windows
+	OpenGL 	zlib/libpng 	Kostenlos 	HP 	Cube Script 	Cube , AssaultCube , Death Illustrated
+Delta3D [4] 	GeekLog 	ja 	ja 	ja 	Tastatur
+Maus
+Joystick
+Trackers 	macOS
+
+Windows
+	OpenGL 	LGPL 	Kostenlos 	HP 	C++ 	Unbekannt
+Horde3D [5] 	Nicolas Schulz 	nein 	nein 	nein 	Maus
+Tastatur
+Joystick 	Windows 	OpenGL 	EPL 	Kostenlos 	HP 	C++ 	
+Doom-Engine bzw. id Tech 1 	id Software 	ja 	ja 	nein 	Tastatur
+Gamepad
+Maus 	DOS
+Windows 	OpenGL
+DirectX 	GPL 	Kostenlos 	Unbekannt 	Action Code Script (ACS) 	Doom
+Doom 2
+Heretic
+Hexen
+Duality 	Adam’s Lair 	ja 	nein 	ja 	Tastatur
+Maus
+Joystick
+Gamepad 	Windows 	OpenGL 	MIT-Lizenz 	Kostenlos 	HP 	C# 	Onikira
+Dunia Engine 	Ubisoft Montreal 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows , Xbox 360 , PlayStation 3 , PlayStation 4 , Xbox One 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Far-Cry -Reihe ab Teil 2
+DX Studio 	Worldweaver 	ja 	ja 	ja 	Tastatur
+Maus
+Joystick 	Windows 	DirectX 	Proprietär 	Kostenlos 	HP 	JavaScript 	
+Eclipse Engine 	BioWare 	ja 	nein 	nein 	Tastatur
+Maus
+Gamepad 	Windows
+macOS
+Xbox 360
+PlayStation 3 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 			Dragon Age: Origins
+Ego-Engine 	Codemasters 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad
+Lenkrad 	Windows
+Linux
+OS X
+Wii
+Wii U
+Nintendo Switch
+Xbox 360
+Xbox One
+PlayStation 3
+PlayStation 4 	DirectX
+OpenGL 	Proprietär 	Nicht zum Verkauf vorgesehen 	HP 		Colin-McRae:-Dirt -Reihe
+Race-Driver:-GRID -Reihe
+F1 -Reihe (ab 2009)
+Operation Flashpoint: Dragon Rising
+Operation Flashpoint: Red River
+Frostbite Engine 	Digital Illusions CE 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick 	PlayStation 3
+PlayStation 4
+
+Windows
+Xbox 360
+Xbox One
+	DirectX
+AMD Mantle 	Unbekannt 	Nicht zum Verkauf vorgesehen 	HP 	C++ 	Battlefield: Bad Company , Battlefield: Bad Company 2 , Battlefield 3 , Battlefield 4 , Battlefield 1 , Battlefield V , Need for Speed ab The Run , Battlefront , Battlefront II , FIFA -Reihe ab FIFA 17 , Dragon Age: Inquisition , Mass Effect: Andromeda , Anthem
+G3D 	Morgan McGuire 	nein 	ja 	nein 	Maus
+Tastatur
+Joystick 	Linux
+
+macOS
+
+Windows
+	OpenGL 	BSD 	Kostenlos 	HP 	C++
+GCC 	
+Gamebryo 	Numerical Design Limited 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	GNU/Linux
+
+Windows
+Nintendo GameCube
+Wii
+PlayStation 2
+PlayStation 3
+Xbox
+Xbox 360
+	DirectX
+OpenGL 	Proprietär 		HP 	C++ 	The Elder Scrolls III und IV , Fallout 3 und New Vegas , Civilization IV , Dark Age of Camelot , Bully: Die Ehrenrunde , Divinity 2 , Micky Epic , LEGO Universe
+Gameplay3D Engine 	Blackberry 	ja 	nein 	ja 	Maus
+Tastatur
+Joystick
+Touchscreen 	Android
+Blackberry
+iOS
+Linux
+macOS
+
+Windows
+	OpenGL
+OpenGL ES 	Apache 2.0-Lizenz 	Kostenlos 	HP 	C++
+[Lua] 	
+GameMaker Studio 2 	YoYoGames 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick
+Touchscreen 	Android
+Blackberry
+iOS
+Linux
+macOS
+
+Windows
+	DirectX 	Unbekannt 	Non-Commercial License ist kostenlos, Lizenzen zwischen ca. 39-1500$ 	HP 	GLM 	Undertale, Wandersong, Moko, Nidhogg 2, Forager, Hotline Miami
+Genie Engine 	Ensemble Studios 	ja 	ja 	nein 	Tastatur
+Maus 	Windows
+macOS 		Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Age of Empires , Age of Empires II , Star Wars: Galactic Battlegrounds
+Genome Engine [6] 	Piranha Bytes 	ja 	nein 	ja 	Tastatur
+Maus
+Gamepad 	Windows
+Xbox 360
+PlayStation 3
+PlayStation 4
+Xbox One 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Gothic 3 , Risen , Risen 2 , Risen 3 , ELEX
+Godot Engine 	Okam Studio 	ja 	nein 	ja 	Maus
+Tastatur
+Touchscreen 	Android
+iOS
+Linux
+MacOS
+PlayStation 3
+PlayStation Vita
+
+Windows
+	OpenGL
+OpenGL ES 	MIT-Lizenz 	Kostenlos 	HP 	GDScript
+
+C++
+
+C#
+
+VisualScript
+	
+GoldSrc 	Valve 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Windows
+Linux
+MacOS
+PlayStation 2
+Xbox
+GameCube
+Game Boy Advance 	OpenGL
+DirectX 	Proprietär 	Unbekannt 			Half-Life , Team Fortress , Counter-Strike , 007: Nightfire , Enter the Matrix , Day of Defeat
+GrimE (Grim Engine) 	LucasArts 	ja 	nein 	nein 	Maus
+Tastatur 	Windows
+macOS
+Linux 		Proprietär 	Unbekannt 		Lua 	Grim Fandango , Flucht von Monkey Island
+HeroEngine 	Simutronics 	ja 	ja 	nein 	Maus
+Tastatur 	Windows 		Proprietär 	ab 99$ pro Jahr 	HP 	HeroScript Language (HSL) 	Hero's Journey, Faxion Online, Star Wars: The Old Republic
+Horde3D 	Nicolas Schulz 	nein 	nein 	nein 	Maus
+Tastatur
+Joystick 	Windows 	OpenGL 	EPL 	Kostenlos 	HP 	C++ 	
+id Tech 4 	id Software 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows
+Linux
+macOS
+Xbox
+PlayStation 3
+Xbox 360
+PlayStation 4
+Xbox One
+Nintendo Switch 	OpenGL
+DirectX 	Proprietär 	Unbekannt 	Unbekannt 		Doom 3 , Quake 4 , Prey , Enemy Territory: Quake Wars , Wolfenstein , Brink
+id Tech 5 	id Software 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows
+macOS
+PlayStation 3
+Xbox 360
+PlayStation 4
+Xbox One 	OpenGL
+DirectX 	Proprietär 	Unbekannt 	Unbekannt 		Rage , Wolfenstein: The New Order , Wolfenstein: The Old Blood , The Evil Within
+id Tech 6 	id Software 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Microsoft Windows
+PlayStation 4
+Xbox One
+Nintendo Switch 	OpenGL
+DirectX 	Proprietär 	Unbekannt 	Unbekannt 		Doom (2016) , Wolfenstein II: The New Colossus
+id Tech 7 	id Software 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Microsoft Windows
+PlayStation 4
+Xbox One
+Nintendo Switch 	OpenGL
+DirectX 	Proprietär 	Unbekannt 	Unbekannt 		Doom Eternal
+Infinity Engine 	BioWare 	ja 	nein 	nein 	Tastatur
+Maus 	Windows
+macOS 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 			Baldur’s Gate , Baldur’s Gate II , Planescape: Torment , Icewind Dale
+Irrlicht 	Nikolaus Gebhardt 	nein 	nein 	nein 	Maus
+Tastatur
+Joystick 	Linux
+
+macOS
+Windows
+	DirectX
+OpenGL 	zlib 	Kostenlos 	HP 	.NET
+C++ 	SuperTuxKart
+IW Engine 	Infinity Ward ,
+Treyarch ,
+Sledgehammer Games 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	macOS
+
+PlayStation 3
+PlayStation 4
+Wii
+Wii U
+Windows
+Xbox 360
+Xbox One
+	OpenGL
+DirectX 	Proprietär 	Unbekannt 	Unbekannt 	Unbekannt 	Call-of-Duty -Reihe,
+
+Ein Quantum Trost
+jMonkeyEngine 	jME Core Team 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick
+Touchscreen 	Android
+
+Linux
+
+macOS
+
+Windows
+Web
+	OpenGL 	New BSD License (Open Source) 	Kostenlos 	HP 	Java 	Mythruna,
+
+PoisonVille,
+
+Rising World,
+
+CHAOS: In the Darkness,
+
+PirateHell,
+
+Project Wonderland,
+
+Skylimit Tycoon,
+
+Diverse
+jPCT/jPCT-AE [7] 	Helge Förster 	nein 	nein 	ja 	Maus
+Tastatur
+Joystick
+Touchscreen 	Android
+
+Linux
+
+macOS
+
+Windows
+Web
+	OpenGL/OpenGL ES 	Proprietär 	Kostenlos 	HP 	Java 	Diverse [8]
+KRASS Engine 	Massive Development / JoWooD (nach Aufkauf) 	ja 	nein 	ja 	Maus
+Tastatur 	Linux
+
+macOS
+
+Windows
+Konsolen [9]
+	DirectX
+OpenGL 	Proprietär 	Unbekannt 	HP ( Memento vom 12. April 2001 im Internet Archive ) 	C++ 	Aquanox , SpellForce [10]
+LithTech 	Monolith Productions , Touchdown Entertainment 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Windows
+Xbox One
+PlayStation 4
+Xbox 360
+PlayStation 3
+macOS
+Linux
+PlayStation 2 	DirectX, OpenGL 	Proprietär 	Unbekannt 	HP 		Blood II , No One Lives Forever , Fear , Mittelerde: Mordors Schatten
+Lumberyard 	Amazon 	ja 	ja 	ja 	Maus
+
+Tastatur
+Gamepad
+HTC Vive
+Playstation VR
+	PlayStation 4
+
+Windows
+Xbox One
+		Proprietär
+
+(source-available)
+	Kostenlos
+
+Server-Gebühren bei Multiplayer Spielen
+	HP 	C++
+
+Lua
+
+Blueprint Scripting
+	Star Citizen
+Lycium Engine 	BioWare 	ja 	nein 	nein 	Tastatur
+Maus
+Gamepad 	Windows
+macOS
+Xbox 360
+PlayStation 3 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 			Dragon Age 2
+MacVenture 	ICOM Simulations 	ja 	ja 	ja 	Maus
+Tastatur 	macOS 		Proprietär 	Unbekannt 	Unbekannt 		Déjà Vu: A Nightmare Comes True , Uninvited , Shadowgate , Déjà Vu II: Lost in Las Vegas
+Marmalade 	Marmalade Technologies Limited 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick 	Android
+iOS
+macOS
+Web
+Windows
+Windows Phone 		Unbekannt 	Unbekannt 	Made with Marmalade 		Angry Birds POP!, SimCity: BuildIt [11]
+Nebula Device 	Radon Labs 	ja 	ja 	nein 	Maus
+Tastatur
+Gamepad 	Windows
+Linux
+IRIX
+macOS
+Xbox 	DirectX
+OpenGL 	MIT-Lizenz 	Unbekannt 	SourceForge 	Tcl, Python, Lua 	Das Schwarze Auge: Drakensang , Drakensang: Am Fluss der Zeit , Drakensang Online
+NeoAxis 3D 	NeoAxis Group Ltd. 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick
+Kinect
+Xbox-360-Controllers
+Und Mehr… 	
+Linux (via Wine )
+
+macOS
+
+Windows
+	DirectX
+OpenGL 	Proprietär 	Non-Commercial License ist kostenlos, Lizenzen zwischen ca. 75 € – 765€ 	HP 	C#
+C++
+C 	Homura Combat
+SickBrick
+Project Warcry
+uvm.
+Odyssey Engine 	BioWare 	ja 	nein 	nein 	Tastatur
+Maus
+Gamepad 	Windows
+Linux
+macOS
+Xbox 	DirectX 	Proprietär 	Unbekannt 			Star Wars: Knights of the Old Republic , Star Wars: Knights of the Old Republic II
+OGRE 	Torus Knot Software Ltd 	nein 	nein 	nein 	Maus
+Tastatur
+Joystick 	Linux
+
+macOS
+
+Windows
+	DirectX
+OpenGL 	LGPL
+OUL 	Kostenlos 	HP 	C++
+Python
+Java
+C#
+.NET 	Jack Keane
+Ankh
+Ankh: Herz des Osiris
+The Book of Unwritten Tales
+OHRRPGCE 	James Paige 	ja 	nein 	ja 	Tastatur
+Maus
+Touchscreen 	Windows
+DOS
+Linux
+macOS
+Android 	SDL
+DirectX 	GPL 	Kostenlos 	HP 	HamsterSpeak 	Diverse
+OpenRA Engine 	OpenRA Entwickler 	ja 	ja 	nein 	Tastatur
+Maus 	Windows, Linux, macOS 	SDL, OpenGL, OpenAL 	GPLv3 [12] 	Kostenlos 	HP 	Lua, C# 	Command & Conquer: Der Tiberiumkonflikt , Command & Conquer: Alarmstufe Rot , Dune 2000 , Command & Conquer: Tiberian Sun [13] , Command & Conquer: Alarmstufe Rot 2 [14] , Community Mods [15]
+oxygine 	Denis Muratshin 	ja 	nein 	nein 	Maus
+Tastatur
+Joystick
+Gamepad
+Touchscreens 	Android
+iOS
+Linux
+macOS
+Web
+Windows 	OpenGL
+OpenGL ES 	MIT-Lizenz 	Kostenlos 	HP 	C++ 	Match3Quest
+ElementsBattle
+BattlePaint
+Panda3D 	Disney
+Carnegie Mellon University 	nein 	ja 	ja 	Keyboard
+Maus 	Linux
+
+Windows
+	DirectX
+OpenGL 	BSD 	Kostenlos 	HP 	C++
+Python 	Disneys Toontown
+Disneys Pinball
+Disneys Pirates of Caribbean Sea
+PLIB 	Steve J. Baker 	ja 	ja 	nein 	Tastatur
+Maus
+Joystick 	Linux
+
+macOS
+
+Windows
+	OpenGL 	LGPL 	Kostenlos 	HP 	C++ 	FlightGear
+TORCS
+TuxKart
+Quake-Engine bzw. id Tech 2–3 	id Software 	ja 	ja 	ja 	Maus
+Tastatur 	Windows 	OpenGL
+DirectX 	GPL 	Kostenlos 	Unbekannt 	QuakeC 	Quake -Reihe
+Hexen II
+Nexuiz
+Warsow
+Call of Duty
+weitere
+Quantum3 	High Voltage Software 	ja 	nein 	nein 	Wii-Fernbedienung
+Wii Nunchuck
+Gamepad 	Wii
+PlayStation 2
+PlayStation Portable 		Proprietär 	Unbekannt 	Unbekannt 	Unbekannt 	Family Guy Video Game!, The Conduit
+Quest3D 	Act-3D B.V. 	ja 	nein 	nein 	Maus
+Tastatur 	Windows 	DirectX 	Proprietär 	Unbekannt 	HP 	Lua 	Audiosurf , The Path
+RE Engine 	Capcom 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad
+Touch
+Oculus Rift/VR
+
+Playstation VR
+	PlayStation 4
+Windows
+Xbox One 	Nicht bekannt 	Nicht bekannt 	Nicht bekannt 	Nicht bekannt 	Nicht bekannt 	Resident Evil 7: Biohazard , Resident Evil 2 Remake , Devil May Cry 5
+REDengine 	CD Projekt 	ja 	nein 	ja 	Tastatur
+Maus
+Gamepad 	Windows
+Xbox 360
+macOS
+Linux
+PlayStation 4
+Xbox One
+Nintendo Switch 	OpenGL
+DirectX 	Proprietär 	Unbekannt 			The Witcher 2 , The Witcher 3 , Cyberpunk 2077
+RenderWare 	Criterion Games ,
+Electronic Arts 	ja 	ja 	ja 	Tastatur
+Maus
+GamePad 	Windows
+macOS
+GameCube
+Wii
+Xbox
+Xbox 360
+PlayStation 2
+PlayStation 3
+PlayStation Portable 	DirectX 	Proprietär 	Unbekannt 	HP ( Memento vom 14. Februar 2007 im Internet Archive ) 		GTA III , GTA Vice City , GTA San Andreas , Tony-Hawk's-Pro-Skater -Reihe, Burnout -Reihe, Persona 3 und 4
+Ren’Py 	PyTom 	nein 	nein 	nein 	Maus
+Tastatur 	Linux
+
+macOS
+
+Windows
+	OpenGL
+DirectX 	MIT-Lizenz 	Kostenlos 	HP 	Python 	RE: Alistair
+Rockstar Advanced Game Engine (RAGE) 	Rockstar Games 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows
+Xbox 360
+PlayStation 3
+Xbox One
+PlayStation 4
+	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Grand Theft Auto IV , Grand Theft Auto V , Red Dead Redemption , Red Dead Redemption 2 , Max Payne 3
+SAGE-Engine 	Westwood Studios , Electronic Arts 	ja 	ja 		Tastatur
+Maus 	Windows
+Mac OS 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 			Command & Conquer: Generäle , Der Herr der Ringe: Die Schlacht um Mittelerde , Der Herr der Ringe: Die Schlacht um Mittelerde 2 , Command & Conquer 3: Tiberium Wars
+Sauerbraten Engine 	Wouter „Aardappel“ van Oortmerssen, Lee „Eihrul“ Salzman , u. a. 	ja 	ja 	ja 	Tastatur
+Maus 	Linux
+macOS
+Windows 	OpenGL 	zlib/libpng 	Kostenlos 	HP 	Cube Script 	Cube 2: Sauerbraten , Red Eclipse, Eisenstern, weitere
+Shark 3D 	Spinor 	ja 	nein 	ja 	Maus
+Tastatur
+Touchscreen
+Gamepad 	Linux
+Microsoft Windows
+Xbox
+Xbox 360 		Proprietär 		HP 		Dreamfall , Windchaser
+Sierra Creative Interpreter (SCI) 	Sierra Entertainment 	ja 	nein 	nein 	Maus
+Tastatur 	DOS
+Windows 		Proprietär 	Unbekannt 	Unbekannt 		King’s-Quest -Remake, Police-Quest -Remake, Space-Quest-Remake , Quest-for-Glory -Remake, The Colonel’s Bequest , Der Dolch des Amon Ra
+SLUDGE 	Hungry Software 	ja 	nein 	nein 	Tastatur
+Maus 	Linux
+macOS
+Windows 	OpenGL 	LGPL 	Kostenlos 	HP 	SLUDGE 	Out Of Order
+Snowdrop Engine 	Massive Entertainment , Ubisoft 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Windows
+
+PlayStation 4 Xbox One
+	DirectX
+	Proprietär 	Nicht zum Verkauf vorgesehen 	HP 	Nicht bekannt 	Tom Clancy’s The Division
+Tom Clancy’s The Division 2
+South Park: Die rektakuläre Zerreißprobe
+Mario + Rabbids: Kingdom Battle
+Source Engine 	Valve 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick 	Linux
+
+macOS
+
+PlayStation 3
+
+Windows
+
+Xbox 360
+	DirectX
+OpenGL
+Vulkan 	Proprietär 	Kostenlos 	HP 	C++ 	Half-Life 2
+Counter Strike: Source
+Portal
+Left 4 Dead
+Postal 3
+Vampire: The Masquerade – Bloodlines
+Titanfall -Serie
+weitere
+Spring (früher Total Annihilation: Spring) 	Spring Community 	ja 	ja 	nein 	Tastatur
+Maus 	Windows, Linux, macOS 	OpenGL 	GPLv3 	Kostenlos 	HP 	Lua 	Absolute Annihilation: Spring, Balanced Annihilation, XTA, Zero-K, Spring: 1944, Star Wars: Imperial Winter, The Cursed, Gundam RTS, Chicken Defense
+SPUTM ( SCUMM Presentation Utility TM ) 	Lucasfilm Games 	ja 	nein 	nein 	Maus
+Tastatur 	Amiga , Apple II , Atari ST , C64 , DOS, NES , FM Towns 		Proprietär 	Unbekannt 	Unbekannt 	SCUMM 	Maniac Mansion , Zak McKracken and the Alien Mindbenders , Indiana Jones and the Last Crusade , LOOM , The Secret of Monkey Island , Monkey Island 2 , Indiana Jones and the Fate of Atlantis , Day of the Tentacle , Sam & Max Hit the Road , Vollgas , The Dig , The Curse of Monkey Island
+Titanium 	Radical Entertainment 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	PlayStation
+Sega Saturn
+Windows
+PlayStation 2
+GameCube
+PlayStation Portable
+Xbox
+Xbox 360
+PlayStation 3
+Wii 		Proprietär 	Unbekannt 	Unbekannt 	Lua 	Prototype , Prototype 2
+Unigine 	Unigine Corp. 	ja 	ja 	ja 	Maus
+Tastatur
+Joystick
+Gamepad
+Touchscreens 	Android
+iOS
+Linux
+macOS
+PlayStation 3
+Windows 	DirectX
+OpenGL
+OpenGL ES
+Playstation 3 	Proprietär 	15000$ – 55000$ 	HP 	UnigineScript 	Oil Rush [16]
+Unity 	Unity Technologies 	ja 	ja 	ja 	Tastatur
+Maus
+Joystick
+Gamepad 	Android
+BlackBerry
+Google Native Client
+Flash Player
+iOS
+Linux
+macOS
+Nintendo 3DS
+Nintendo Switch
+PlayStation 3
+PlayStation 4
+Web
+Wii
+
+Windows
+Windows Phone
+	OpenGL
+DirectX
+Vulkan 	Proprietär 	Kostenlos / 1500$ 	HP 	C# 	Pokemon Go [17]
+
+Cuphead [18]
+
+WolfQuest
+Temple Run 2
+Crossy Road
+Unreal Engine 1 	Epic Games 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Linux
+macOS
+PlayStation 2
+Windows
+Dreamcast 	OpenGL
+DirectX 	Proprietär 		HP 	UnrealScript 	Unreal , Unreal Tournament , Deus Ex
+Unreal Engine 2 	Epic Games 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Linux
+macOS
+PlayStation 2
+PlayStation 3
+Windows
+Xbox
+Xbox 360
+GameCube
+Wii 	OpenGL
+DirectX 	Proprietär 		HP 	UnrealScript 	America’s Army , BioShock , BioShock 2 , Deus Ex: Invisible War , Tom Clancy’s Splinter Cell Unreal Tournament 2003 und 2004
+Unreal Engine 3 	Epic Games 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad 	Android
+iOS
+Linux
+macOS
+PlayStation 3
+PlayStation 4
+Windows
+Xbox 360
+Xbox One 	OpenGL
+DirectX
+AMD Mantle 	Proprietär 	Kostenlos bei nicht kommerzieller Nutzung [19] 	HP 	UnrealScript 	Borderlands 2 , Batman: Arkham Asylum , XIII (Computerspiel) , Gears of War , Mass Effect , BioShock Infinite , Thief 4 , Rocket League , Tomb Raider
+Unreal Engine 4 	Epic Games 	ja 	ja 	ja 	Maus
+Tastatur
+Gamepad
+Touch
+Oculus Rift/VR 	Android
+iOS
+Linux
+macOS
+PlayStation 4
+Windows
+Xbox One
+Nintendo Switch 	OpenGL
+DirectX 	Proprietär 	5% Tantiemen 	HP 	C++
+Blueprint Scripting
+C# (Nur Buildscripts) 	Unreal Tournament 4 , ARK: Survival Evolved , Fortnite
+Virtual Theatre 	Revolution Software 		nein 	nein 	Maus 	Windows 		Proprietär 				Lure of the Temptress , Beneath a Steel Sky , Baphomets Fluch
+Vision 	Trinigy , Havok 	ja 	ja 	ja 	Tastatur
+Maus
+Gamepad 	Windows
+Xbox 360
+PlayStation 3
+Nintendo Wii
+Wii U
+iOS
+Android
+PlayStation Vita 	DirectX 	Proprietär 	Unbekannt 	Unbekannt 		Lula 3D , Desperados 2 , Helldorado , Die Siedler 7 , Arcania , Grotesque Tactics: Evil Heroes , Stronghold 3 , Orcs Must Die! 1 und 2, World of Subways 3 und 4, City Bus Simulator München, Giana Sisters: Twisted Dreams , Das Schwarze Auge: Demonicon , Stronghold Crusader 2 , Modern Combat Versus
+Visual Pinball 	Randy Davis u. A. 	ja 	nein 	ja 	Tastatur
+Gamepad 	Windows 	DirectX 	M.A.M.E.-Lizenz ( Freeware mit Sourcecode) 	Kostenlos 	HP 	C++ 	
+XnGine 	Bethesda Softworks 	ja 	nein 	nein 	Tastatur
+Maus 	DOS
+Windows 		Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	The Terminator: Future Shock , The Elder Scrolls II: Daggerfall , An Elder Scrolls Legend: Battlespire , The Elder Scrolls Adventures: Redguard
+ZenGine 	Mad Scientists, [20]
+Piranha Bytes 	ja 	nein 	ja 	Tastatur
+Maus 	Windows 	DirectX 	Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Daedalus 	Gothic , Gothic II
+Zero 	Pandemic Studios 	ja 	ja 	ja 	Tastatur
+Maus 	Windows
+macOS
+PlayStation 2
+Xbox
+PlayStation Portable
+PlayStation 3
+Xbox 360 		Proprietär 	Nicht zum Verkauf vorgesehen 	Unbekannt 	Unbekannt 	Battlezone II: Combat Commander , Dark Reign 2 , Star Wars: Battlefront , Star Wars: Battlefront II , Der Herr der Ringe: Die Eroberung
+Game Engine 	Entwickler 	SE 	NF 	PE 	Eingabegeräte 	BS 	Grafik-API 	Lizenz 	Kosten 	HP 	Unterstützte Skript­sprachen 	Verwendung der Engine in Spielen (Auswahl)
+Einzelnachweise [ Bearbeiten | Quelltext bearbeiten ]
+
+    ↑ Martin Le: Making Games News-Flash – Mobile-Entwickler setzen auf iOS und Unity. In: GameStar . 25. Mai 2012, abgerufen am 13. November 2020 .  
+    ↑ Chukong Technologies Highlights Top Performing Cocos2d-x Titles of 2015. In: Gamasutra. 11. Oktober 2015, abgerufen am 13. November 2020 (englisch).  
+    ↑ Mirco Lang, Stephan Augsten: Gratis-Einstieg in die Spieleentwicklung. In: Dev-Insider. 24. Februar 2020, abgerufen am 13. November 2020 .  
+    ↑ R. Darken, P. McDowell, E. Johnson: Projects in VR: the Delta3D open source game engine . In: IEEE Computer Graphics and Applications . Band   25 , Nr.   3 , Mai 2005, ISSN   0272-1716 , S.   10–12 , doi : 10.1109/MCG.2005.67 ( ieee.org [abgerufen am 11. November 2020]).  
+    ↑ Ido A. Iurgel, Nelson Zagalo, Paolo Petta: Interactive Storytelling: Second Joint International Conference on Interactive Digital Storytelling, ICIDS 2009, Guimarães, Portugal, December 9-11, 2009, Proceedings . Springer Science & Business Media, 2009, ISBN 978-3-642-10642-2 , S.   266 ( google.de [abgerufen am 11. November 2020]).  
+    ↑ Elex – The Genome Evolution. In: Making Games . 25. Januar 2018, abgerufen am 1. September 2019 .  
+    ↑ Sunil Rajguru: Eight Popular Open Source Android Game Engines. In: PCQuest. 10. Mai 2016, abgerufen am 19. November 2020 (amerikanisches Englisch).  
+    ↑ jPCT 3D engine. In: jPCT. Abgerufen am 6. September 2019 .  
+    ↑ Technische Eigenschaften Krass Engine . massive.de. 12. April 2001. Archiviert vom Original am 12. April 2001. Abgerufen am 16. Januar 2011.
+    ↑ Richard Aihoshi: SpellForce – The Order of Dawn Interview, Part 2, Page 2 ( englisch ) RPG Vault. 9. Dezember 2003. Archiviert vom Original am 17. März 2006. Abgerufen am 16. Januar 2011.
+    ↑ Alex Wawro: Marmalade is giving up on its game engine biz to focus on game dev. In: Gamasutra. 13. September 2016, abgerufen am 5. November 2020 (englisch).  
+    ↑ https://github.com/OpenRA/OpenRA/blob/bleed/COPYING
+    ↑ https://www.openra.net/about/
+    ↑ https://github.com/OpenRA/ra2
+    ↑ https://www.moddb.com/games/openra/mods
+    ↑ Benjamin Jakobs: Oil Rush - Test. In: Eurogamer. 23. März 2012, abgerufen am 5. November 2020 .  
+    ↑ Unity Technologies: Die Plattform hinter Pokémon Go ist 1,5 Milliarden US-Dollar wert. Abgerufen am 26. Dezember 2019 .  
+    ↑ Unity Technologies: Cuphead. Abgerufen am 26. Dezember 2019 (englisch).  
+    ↑ http://www.unrealengine.com/udk/
+    ↑ DevPlay: Zocken wir überhaupt selbst? – DevPlay (ab 0:21:26) auf YouTube , 12. November 2019, abgerufen am 22. November 2019.
+
+Abgerufen von „“
+Kategorien :
+
+    Spiel-Engine
+    Liste (Computerspiele) 
+
+Versteckte Kategorie:
+Navigationsmenü
+
+    Nicht angemeldet
+    Diskussionsseite
+    Beiträge
+    Benutzerkonto erstellen
+    Anmelden 
+
+    Artikel
+    Diskussion 
+
+    Lesen
+    Bearbeiten
+    Quelltext bearbeiten
+    Versionsgeschichte 
+
+Suche
+
+    Hauptseite
+    Themenportale
+    Zufälliger Artikel 
+
+Mitmachen
+
+    Artikel verbessern
+    Neuen Artikel anlegen
+    Autorenportal
+    Hilfe
+    Letzte Änderungen
+    Kontakt
+    Spenden 
+
+Werkzeuge
+
+    Links auf diese Seite
+    Änderungen an verlinkten Seiten
+    Spezialseiten
+    Permanenter Link
+    Seiten­informationen
+    Artikel zitieren
+    Wikidata-Datenobjekt 
+
+Drucken/­exportieren
+
+    Buch erstellen
+    Als PDF herunterladen
+    Druckversion 
+
+In anderen Sprachen
+
+    العربية
+    English
+    Español
+    فارسی
+    Français
+    Português
+    Русский
+    Türkçe
+    中文
+    4 weitere 
+
+Links bearbeiten
+
+    Diese Seite wurde zuletzt am 23. April 2021 um 20:23 Uhr bearbeitet.
+    Abrufstatistik  · Autoren
+
+    Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+    Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+
+    Datenschutz
+    Über Wikipedia
+    Impressum
+    Mobile Ansicht
+    Entwickler
+    Statistiken
+    Stellungnahme zu Cookies
+
+    Wikimedia Foundation
+    Powered by MediaWiki
+

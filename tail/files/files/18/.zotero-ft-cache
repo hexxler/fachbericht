@@ -1,0 +1,90 @@
+
+Vendors: Asset submission on the CRYENGINE Marketplace is currently unavailable due to extended maintenance. We will let you know when it is available again.
+CRYENGINE
+Menu
+Search
+Profile
+News
+Archive
+Introduction to Flow Graph
+Introduction to Flow Graph
+Community
+Introduction to Flow Graph
+January 10, 2018
+
+Today’s Master Class tutorial gives you an in-depth introduction to Flow Graph, the built-in tool used to control events and game logic within levels. This is the latest video in our series of Master Class tutorials that give you insight and techniques straight from the studio.
+
+This tutorial is hosted by Turgut Özbayram, Senior Level Designer for Hunt who has previously worked on the level design for Ryse: Son of Rome and Robinson: The Journey. In this Master Class, you will be introduced to Flow Graph and taken through every step you need to master to use the visual scripting system, using the same processes that we use in our own games. Flow Graph is a powerful CRYENGINE feature that does not require any scripting or programming knowledge, allowing for rapid development and iteration. Check out the Master Class below to find out how you can get the most out of Flow Graph for your project.
+
+
+We hope you enjoy this Master Class. If you want more tutorials that can help you improve your skills with CRYENGINE, you can check out our introduction to working with particles in CRYENGINE, and videos covering the Designer Tool , UI , audio , character art , environment art , and a series detailing cinematic storytelling . To receive our latest learning videos as they are published, subscribe to our YouTube channel where you can also find a wide range of additional tutorials. As ever, we hope you enjoyed this Master Class, and if you have feedback or other topics you’d like to see covered, let us know in the comment section, on the forums , or Facebook , and Twitter .
+
+- Your CRYENGINE Team
+Cry-Nic
+Cry-Nic
+January 15, 2018 20:03
+
+Hey guys, just a couple of things: Flowgraph isn't going to be deprecated in the foreseeable future. We have no plans for that as it is quite powerful as a visual scripting language. Yes, Schematyc is a new take on visual scripting, especially with the new Entity Component System also shaping up, but it's still in beta and will eventually see another iteration before it's production ready. So far, we're supporting Flowgraph as production-ready visual scripting solution.
+Along the lines of Tutorials, please review this thread and let us know what you would like to see: https://forum.cryengine.com/viewtopic.php?f=11&t=4461
+We are going to keep at it with tutorials and learning material for both visual scripting and programming in C++ as well as adding more C# functionalities. But as was mentioned in the comments before, we have to tackle this one thing at a time. Thanks for your great feedback in general, but maybe try adding that to the forums as well, so we can better react to it. :) The blog is a little one-sided as far ascommunication goes.
+Reply
+xiangqian
+xiangqian
+January 13, 2018 16:16
+
+Of course it's good to have C # and visual scripts, but the key feeling is they do not have enough people and energy to do more right now, so why not do one thing first...Maybe I think wrong
+Reply
+EndiHaxhi
+EndiHaxhi
+January 13, 2018 14:36
+
+Silver, do not forget that Unity is C++ behind, C# just compiles to C++ code. The same thing happens here. Blueprints too, compile to native C++ code. Who uses C++ in UE4? Only pros, and pros with a couple years of experience. I am a C++ dev, or rather was up until I learned C#. Have you seen how hard C++ in Unreal and here in CE5 is? The same thing is much easier in C# or visual scripting. There is also no overhead, because everything compiles to native C++. What is the problem? Only creating and maintaining C# and visual scripting, which is not easy, but necessary.
+Reply
+EndiHaxhi
+EndiHaxhi
+January 12, 2018 20:55
+
+Guys, C# must not be dropped, and a visual scripting language is good to have, even as backup. C# is the future, C++ should be used either by people who already know it and don't want C#, or die hard fans of the language. C# cuts the dev time by half. Visual scripting is good for prototyping and the small things, also from people who are artists and have very little code in their games. Making tutorials for all of these is hard, but remember, tutorials are only done once, and updated somewhat rarely. C# and Visual scripting is in constant use and would make Cryengine THE engine, if it supports all of these.
+Reply
+xiangqian
+xiangqian
+January 12, 2018 15:28
+
+Does anyone have the same idea as mine?maybe the engine team should just focus on the C++,give up the flowgraph and C#, then devote more time and energy to the tutorials?documentation and the community building as well as the engine itself,we do not need more.
+Reply
+Add a comment
+Post comment
+View all
+More like this
+Celebrating your #AchievedWithCRYENGINE projects
+Community
+Celebrating your #AchievedWithCRYENGINE projects
+You make it. We celebrate it. Check out some of our favorite work shared by the community in our new spotlight feature.
+March 18, 2021
+9
+Your CRYENGINE Indie Game of the Year 2020 winner!
+Community
+Your CRYENGINE Indie Game of the Year 2020 winner!
+Wolcen: Lords of Mayhem is our CRYENGINE Indie Game of the Year 2020.
+February 12, 2021
+CRYENGINE Indie Game of the Year 2020 Nominee: Wolcen: Lords of Mayhem
+Community
+CRYENGINE Indie Game of the Year 2020 Nominee: Wolcen: Lords of Mayhem
+We speak to Jessica Milleville, Player Experience Director at Wolcen Studio, about their latest DLC, Bloodtrail, and why they chose CRYENGINE.
+February 04, 2021
+Home Features Roadmap Enterprise Support Showcase Documentation Tutorials Certification Forums Marketplace Game registration News Search Contact Brand assets Careers Press RSS
+Stay up to date
+Subscribe
+I agree to the Privacy Policy
+
+You can unsubscribe from marketing emails at any time (e.g. by clicking the unsubscribe link in emails).
+
+    © 2021 Crytek GmbH. All rights reserved
+    Legal
+    Privacy
+    License Agreement
+    Marketplace Terms
+    Imprint
+    Cookies
+
+Crytek

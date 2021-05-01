@@ -1,0 +1,157 @@
+
+Vendors: Asset submission on the CRYENGINE Marketplace is currently unavailable due to extended maintenance. We will let you know when it is available again.
+CRYENGINE
+News
+Product
+Showcase
+Learn
+Community
+Marketplace
+Search
+Profile
+Download
+Support
+Contact us
+
+    Support
+    Licensing
+
+On this page
+Royalties
+Royalty exemptions
+Sending royalty statements
+Game registration
+Marketing support
+Attribution
+Developing for console platforms
+Video and streaming revenue
+Non-commercial and educational purposes
+Additional commercial support
+Crysis Mod SDK aka Cryengine 2
+Commercial non-gaming applications developed in CRYENGINE
+Licensing
+
+All of CRYENGINE, including the full engine source code, is available under our royalty-based model. Please read the End User License Agreement (EULA) for full details. The full C++ source code can be found on GitHub .
+Royalties
+
+There is a 5% royalty fee . Your first $5K of annual revenue per project is royalty-free, so the small fee only kicks in when you are earning.
+
+Royalties are calculated “at source.” That means irrespective of whether you (as self-publishers) or a third party (publisher, platform owner, etc.) receive the Gross Receipts, you always have to pay royalties based on those gross receipts without any deductions. For example: If your publisher receives total gross receipts of USD 100,000.00 for a given year for a given game, and you only get forwarded 70%, you still have to pay USD 4,750.00 as royalty.
+Royalty exemptions
+
+In the following cases only, no royalties apply:
+
+    On the first USD 5,000.00 of gross receipts per year and per game.
+    Strict service and work-for-hire compensation without any share in the gross receipts.
+    Gross receipts you make on Crytek’s CRYENGINE Marketplace.
+    Gross receipts from game-derived merchandise, which do not feature CRYENGINE.
+    Awards (from third parties which are not publishers of the game) granted for the game.
+    Donations that are not used for developing the game.
+    If royalties from your publisher are set off against advances/minimum guarantees, or if you have already paid royalties on such advances/minimum guarantees. In other words: you do not have to pay twice.
+
+Sending royalty statements
+
+First, Register your game . This has to be done at least three months before release. When your game has been approved, you will receive a confirmation email from us. Reply to that email with your royalty statements or contact us via the Contact form .
+
+Detailed royalty statements (including, without limitation: units sold per country, cancellations, refunds, chargebacks, etc.) are due thirty days after the end of every calendar quarter. The first royalty statement is due thirty days after the end of the quarter in which the general release of the game occurs.
+Game registration
+
+Your game needs to be registered with Crytek regardless of whether you want to monetize it or not. Please fill out the Game registration form and provide information about your project, including:
+
+    Your full, legal name.
+    Your email address.
+    The name of your project/game.
+    Additional information about your game, its status, and the engine version used.
+
+If a licensee plans to exploit a game commercially, the licensee shall give notice to Crytek three months prior to the approximate commercial release date of that game via our Game registration form .
+
+Crytek, at its sole discretion, may promote a licensee's game via Crytek's websites and/or social media channels subject to the Licensee's approval of such promotion. You can opt-in to marketing support when you register your game. Only registered games that abide by the license agreement can opt-in for marketing support.
+
+If you need to update the information sent when first registering a game, just reply to your confirmation email. We will update our database accordingly.
+Marketing support
+
+There are several ways in which we can help indie developers and licensees to promote their games. If you want us to help, the best way to apply for a spot is to promote your game in a Showcase gallery thread on the forums and/or on Discord and adhere to the Branding guidelines with all your marketing material.
+
+Contact the Community Team on our channels if you have further questions.
+Attribution
+
+All projects developed with CRYENGINE must include our logo and credit line as per our license agreement . The logo and credit line must also be visible in all major marketing materials, like the website and release trailer.
+
+    Logo: The CRYENGINE logo needs to be present in the project launch title, packaging, major marketing material and website. It needs to be displayed no less prominently as other third-party partner logos.
+    Credit line: The following copyright message should be included in the final game, any demos, and trailers: "Portions of this software are included under license © 2004-2020 Crytek GmbH. All rights reserved."
+    Animated bumper: The animated bumper should be displayed when the project executable is launched, and at the beginning of any marketing trailers.
+    If you publish your game on Steam or other publishing platforms, mention that CRYENGINE is the engine/technology it was developed with.
+
+We provide a branding kit for CRYENGINE developers, which can be downloaded from our Brand assets page. It contains all legitimate variations of the logo for print and web use, the animated bumper, and guidelines on logo usage.
+Developing for console platforms
+
+To acquire console packages, you need to be a Sony PlayStation or Microsoft Xbox verified developer. After registering your game, please reply to your confirmation email and send your certificates to receive access. Once approved by us, we will notify you, and your account will be activated to download the consoles packages.
+Video and streaming revenue
+
+We encourage you to create video content using CRYENGINE, like, for example, development streams, and you can generate revenue through YouTube ads and Twitch donations without paying any royalties to us. For further reference, please refer to the Crytek video policy or contact the Community Team on one of our channels; we are happy to engage with influencers and find mutually beneficial ways to support each other.
+Non-commercial and educational purposes
+
+If you are a student or a member of an academic institution, you are also entitled to develop games and “serious games” in accordance with the License Terms using CRYENGINE, and to render such games in object code form (including the CRYENGINE Assets and the CRYENGINE Redistributables) pursuant to the CRYENGINE documentation. However, the student(s) or member(s) of an academic institution is in no case entitled to commercially exploit such games without Crytek's explicit prior written approval. If the student(s) or member(s) of an academic institution wants to monetize the game, they must register the game and follow through with the revenue statement process. Monetization will be subject to Crytek's sole discretion. Please read the terms for more details about restrictions on use.
+Additional commercial support
+
+Please get in touch with us to find out more about commercial support options via the form on our Enterprise page.
+Crysis Mod SDK aka Cryengine 2
+
+At Crytek, we believe in building a strong community for our games, franchises, and the engine as well. You can still make mods for Crysis as long as you purchase the original game(s) and use the ModSDK delivered with it. Please make sure you get your copy from a legal source and pay attention to the EULA when planning, making and distributing your mods. The following list holds some basic FAQs to help you with your creations.
+Can I make mods for Crysis Remastered?
+
+A Mod SDK for Crysis Remastered is not currently planned, so no. 
+What do I need to keep in mind when modding the original Crysis games?
+
+Only use the officially distributed ModSDK, also referred to as ‘Cryengine 2’, and make sure to get it from a viable, secure source, for example, with the Crysis games from Steam or GOG. The Mod SDK provides an object code toolset to mod Crysis.
+
+All mods are NOT allowed to be:
+
+    Commercially distributed (that includes asking for any financial contribution/donation for accessing these mods/new creations)
+    Operated without owning the Crysis base game
+    Distributed without re-including the Mod SDK EULA and subsequent users being bound to it
+
+For further reference to what is and is not allowed in Crysis modding, please check the EULA, README, and EULA installer of the original Crysis.
+Where do I find the EULA and legal documents for Crysis modding?
+
+You can find it in the original game files, or you can download it right here for reference:
+
+    Crysis 1 - EULA Installer
+    Crysis Original EULA
+    Crysis Readme 
+
+Can I upload and distribute my mods on pages like ModDB?
+
+Yes, you can, but please don't forget to add a disclaimer to your representation or page, expressing that you aren't associated with, endorsed by, or benefiting from the original IP holder and/or publishers of any Crysis game. It may read as follows:
+
+“This site/project/content is not endorsed by or affiliated with Crytek or Electronic Arts. Trademarks are the property of their respective owners.
+
+Game content copyright Crytek."
+Can I ask for donations or otherwise monetize my Mods?
+
+No. Any contents created with any CRYENGINE version or product, including the Crysis Mod SDK are not to be monetized without previous written agreement by Crytek. If you are insecure if your project is in any kind of violation of our code of conduct, TOS, EULA, or license agreement, don't hesitate to get in touch.
+
+It is generally a good idea to let us know about your project! We love to endorse and help. You can use the Game Registration Form to register old and new mods alike. We will review your contributions and let you know if you're all in the clear, and love helping you with visibility and feedback for your mods and games.
+
+Keep in mind that these FAQs are here to help, but are no replacement for studying the EULA to its full extend before deciding to plan, make, or distribute your mods.
+Commercial non-gaming applications developed in CRYENGINE
+
+Developing non-gaming, commercial applications with CRYENGINE needs a written agreement with terms and consent from Crytek. Such cases are not covered under the public product license because they can vary greatly in budget, scope, and industry, so the standard 5% royalty scheme we apply to games for entertainment purposes isn't a mutually fair bargain in most cases.
+
+But Crytek is open to making personalized contract amendments to the license agreement for business cases of interest; so reach out to us via the enterprise contact form at the bottom of this page , and our business development team will get in touch.
+Home Features Roadmap Enterprise Support Showcase Documentation Tutorials Certification Forums Marketplace Game registration News Search Contact Brand assets Careers Press RSS
+Stay up to date
+Subscribe
+I agree to the Privacy Policy
+
+You can unsubscribe from marketing emails at any time (e.g. by clicking the unsubscribe link in emails).
+
+    © 2021 Crytek GmbH. All rights reserved
+    Legal
+    Privacy
+    License Agreement
+    Marketplace Terms
+    Imprint
+    Cookies
+
+Crytek

@@ -1,0 +1,335 @@
+
+
+    News
+
+    About
+        Features
+        What's New
+        Roadmap
+        FAQ
+
+    Industries
+        Games
+        Architecture
+        Automotive & Transportation
+        Broadcast & Live Events
+        Film & Television
+        Training & Simulation
+        More Uses
+
+    Learning & Support
+        Get Started
+        Documentation
+        Online Learning
+        Webinars
+        Education
+        Support
+        Issues
+
+    Community
+        Forums
+        AnswerHub
+        MegaGrants
+        User Groups
+        Events
+        Creators
+        Intel + Unreal
+
+    Marketplace
+        Browse
+        Submit Content
+        Marketplace Knowledge Base
+        Marketplace Guidelines
+        Marketplace Forums
+
+    日本語
+    한국어
+    简体中文 [Simplified Chinese] 
+
+Download
+Unreal Engine 4 Documentation
+
+        What's New
+
+            Release Notes
+
+            Beta Features
+
+            Experimental Features
+
+        Understanding the Basics
+
+        Working with Content
+
+        Building Virtual Worlds
+
+        Designing Visuals, Rendering, and Graphics
+
+        Programming and Scripting
+
+            Programming with C++
+
+            Blueprint Visual Scripting
+
+                Blueprint Best Practices
+
+                Blueprint Editor Reference
+
+                Blueprint Glossary
+
+                Basic Scripting
+
+                Blueprints Technical Guide
+
+                Math Expression Node
+
+                Online Session Nodes
+
+                Mobile Patch Utility Nodes
+
+                Random Streams
+
+                Level Blueprint
+
+                Blueprint Macro Library
+
+                Bitmask Blueprint Variables
+
+                Introduction to Blueprints
+
+                Blueprints - How To's
+
+                Blueprint Overview
+
+                Blueprint Search
+
+                Anatomy of a Blueprint
+
+                Specialized Node Groups
+
+                Blueprint Workflow Tools
+
+                Blueprint Communication Usage
+
+                Blueprints Quick Start Guide
+
+            Class Creation Basics
+
+            Gameplay Architecture
+
+            Gameplay Debugger
+
+            Graphics Programming
+
+            Slate UI Framework
+
+            Programming Subsystems
+
+            Gameplay Tags
+
+            Unreal Projects and Gameplay
+
+            Spawning/Destroying an Actor Overview
+
+            Online Subsystem
+
+        Making Interactive Experiences
+
+        Animating Characters and Objects
+
+        Working with Media
+
+        Setting Up Your Production Pipeline
+
+        Testing and Optimizing Your Content
+
+        Sharing and Releasing Projects
+
+        Samples and Tutorials
+
+    Unreal Engine C++ API Reference
+
+    Unreal Engine Blueprint API Reference
+
+    Unreal Engine Python API Reference
+
+        Site Map
+
+>
+Blueprint Visual Scripting
+Overview of using the Blueprint visual scripting system for gameplay.
+Unreal Engine 4.9
+
+The Blueprint Visual Scripting system in Unreal Engine is a complete gameplay scripting system based on the concept of using a node-based interface to create gameplay elements from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine. As you use UE4, you'll often find that objects defined using Blueprint are colloquially referred to as just "Blueprints."
+
+This system is extremely flexible and powerful as it provides the ability for designers to use virtually the full range of concepts and tools generally only available to programmers. In addition, Blueprint-specific markup available in Unreal Engine's C++ implementation enables programmers to create baseline systems that can be extended by designers.
+Getting Started
+
+QuickStart.png
+Blueprints Quick Start Guide
+
+Get up and running by creating your first Blueprint.
+
+blueprint_topic.png
+Blueprint Overview
+
+The Blueprint Overview page breaks down the anatomy of a Blueprint and the different types of Blueprints available.
+General Scripting
+
+using_interface_topic.png
+Basic Scripting
+
+Get a general overview of the variables and execution flow of the BLueprints visual scripting system.
+Building Blueprints
+
+Anatomy.png
+Anatomy of a Blueprint
+
+The User Guide is the go-to source to learn the different parts of Blueprints and nodes that are available to use within Blueprint graphs.
+
+bp_workflow_topic.png
+Blueprint Workflow Tools
+
+Tools like commenting and breakpoints enable you to follow the flow of your code and make notes for yourself or teammates working with the same system.
+
+BP_HowTo_Topic.png
+Blueprints - How To's
+
+The Blueprint How To page provides several short step-by-step guides for working with Blueprints.
+
+blueprintcheatsheet.png
+Blueprint Editor Cheat Sheet
+
+Reference covering Blueprint shortcuts and useful actions.
+
+BestPractices_Topic.png
+Blueprint Best Practices
+
+Tips and tricks to help you make decisions about when to use Blueprints and how best to set them up.
+Blueprint Communication
+
+bp_comms_topic.png
+Blueprint Communication Usage
+
+Overview of when to use different methods of Blueprint Communications.
+
+BPCommTopic.png
+Blueprint Communication Project
+
+A sample project created using different methods of Blueprint Communications.
+
+Livestream: Blueprint Communications
+
+Livestream: Blueprint Communications
+
+direct_comm_topic.png
+Direct Blueprint Communications
+
+How to use one Blueprint's functions, events, and variables from another Blueprint.
+
+event_dispatcher_topic.png
+Event Dispatchers
+
+Allows a Blueprint Class to report on its state to the Level Blueprint.
+
+blueprint_interface.png
+Blueprint Interface
+
+Blueprints that declare functions to define an interface between Blueprints.
+Doing More With Blueprints
+
+Blueprint Node Reference
+
+Blueprint Node Reference
+
+Comprehensive reference covering all function calls, events, and other Blueprint nodes
+
+macro_blueprint.png
+Blueprint Editor Reference
+
+The Blueprint Editor Reference page outlines the Blueprint Editor's Interface elements and its basic usage instructions.
+
+Live Training Streams: Blueprints
+
+Live Training Streams: Blueprints
+
+placeholder_topic.png
+Blueprints Technical Guide
+
+Technical guide for programmers working with Blueprints.
+
+NativizingBlueprints_topic.png
+Nativizing Blueprints
+
+Technical guide for programmers exposing gameplay elements to Blueprints.
+
+math_topic.jpg
+Math Expression Node
+
+The math expression node allows you to type in a math expression and builds the appropriate sub-graph to create that expression.
+
+OnlineNodesTopic.png
+Online Session Nodes
+
+Describes the different kinds of Online and Error Related Blueprint Nodes.
+
+Patching_Topic.png
+Mobile Patch Utility Nodes
+
+Describes the different kinds of Mobile Patch Utility Blueprint nodes.
+
+random_stream.png
+Random Streams
+
+Explanation of random streams and how to use them in Blueprints.
+
+level_blueprint_test_image.png
+Level Blueprint
+
+Blueprints used for scripting level-specific events within maps.
+
+macro_blueprint.png
+Blueprint Macro Library
+
+Blueprints that declare and define macros for reuse in other Blueprints.
+
+BitmaskBlueprintVariables_topic.png
+Bitmask Blueprint Variables
+
+Blueprint integer variables can be declared as bitmasks to store binary flags in a more compact fashion.
+
+intro_topic.png
+Introduction to Blueprints
+
+If you are just getting started with Blueprints, this provides a high-level overview of what they are and what they can do.
+Tags
+Blueprints
+Select Skin
+
+     
+     
+     
+     
+     
+     
+
+    Features
+    Logo & Branding
+    Roadmap
+    Education 
+
+    Academic Partners
+    More Resources
+    Awards
+    Custom License Terms 
+
+    Online Services
+    Training Partners
+    Community Rules
+    Releasing Your Game 
+
+© 2004-2021, Epic Games, Inc. All rights reserved. Unreal and its logo are Epic’s trademarks or registered trademarks in the US and elsewhere.  
+
+    Terms of Service
+    Privacy Policy 
+
